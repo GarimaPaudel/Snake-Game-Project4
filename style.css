@@ -11,14 +11,14 @@
 .grid{
  
     border: 2px solid black;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     flex-wrap: wrap;
     display: flex;
 }
 .grid div{
-    height: 50px;
-    width: 50px
+    height: 40px;
+    width: 40px
 }
 .snake{
     background-color: blue;
