@@ -1,0 +1,28 @@
+.body{
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+ 
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.grid div{
+    height: 50px;
+    width: 50px
+}
+.snake{
+    background-color: blue;
+}
+.apple{
+    background-color: red;
+}
