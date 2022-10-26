@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             squares[currentSnake[0] + direction].classList.contains('snake')//if snake goes into itself
 
     ){
+             alert('Game Over. Your score is : '+score);
     return clearInterval(interval) //this will clear the interval if any of the above happen
 }
 const tail = currentSnake.pop(); //removes last item of the array and shows it
